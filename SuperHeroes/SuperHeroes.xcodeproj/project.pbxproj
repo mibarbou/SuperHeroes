@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E8F4C1C48B601E46838B32 /* Pods_SuperHeroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F5B3855B87414E61AF8516 /* Pods_SuperHeroes.framework */; };
+		946FE3EF7A998E1679B1BDE7 /* Pods_SuperHeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19AD9BB343687D106F10114 /* Pods_SuperHeroesTests.framework */; };
+		D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */; };
+		D0E7C738208653DD00EF7AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C737208653DD00EF7AE2 /* Assets.xcassets */; };
+		D0E7C73B208653DD00EF7AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */; };
+		D0E7C746208653DD00EF7AE2 /* SuperHeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7C745208653DD00EF7AE2 /* SuperHeroesTests.swift */; };
+		D0E7C7512086544D00EF7AE2 /* HeroesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */; };
+		D0E7C7532086568F00EF7AE2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C7522086568F00EF7AE2 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E7C742208653DD00EF7AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E7C725208653DB00EF7AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E7C72C208653DB00EF7AE2;
+			remoteInfo = SuperHeroes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32141F42A3CE9B434055FDD8 /* Pods-SuperHeroesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroesTests/Pods-SuperHeroesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33F5B3855B87414E61AF8516 /* Pods_SuperHeroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF6EF464E7BC47A6F28C1D1 /* Pods-SuperHeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroesTests/Pods-SuperHeroesTests.release.xcconfig"; sourceTree = "<group>"; };
+		734472E6617E9D352C59B1A0 /* Pods-SuperHeroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroes.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes.release.xcconfig"; sourceTree = "<group>"; };
+		D0E7C72D208653DB00EF7AE2 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E7C737208653DD00EF7AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E7C73A208653DD00EF7AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E7C73C208653DD00EF7AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E7C741208653DD00EF7AE2 /* SuperHeroesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperHeroesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E7C745208653DD00EF7AE2 /* SuperHeroesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesTests.swift; sourceTree = "<group>"; };
+		D0E7C747208653DD00EF7AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListViewController.swift; sourceTree = "<group>"; };
+		D0E7C7522086568F00EF7AE2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		F19AD9BB343687D106F10114 /* Pods_SuperHeroesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeroesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F378256DD614823E6D5EEFF9 /* Pods-SuperHeroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E7C72A208653DB00EF7AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E8F4C1C48B601E46838B32 /* Pods_SuperHeroes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E7C73E208653DD00EF7AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946FE3EF7A998E1679B1BDE7 /* Pods_SuperHeroesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D22F02B080530DF29BCE491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33F5B3855B87414E61AF8516 /* Pods_SuperHeroes.framework */,
+				F19AD9BB343687D106F10114 /* Pods_SuperHeroesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E7C724208653DB00EF7AE2 = {
+			isa = PBXGroup;
+			children = (
+				D0E7C72F208653DB00EF7AE2 /* SuperHeroes */,
+				D0E7C744208653DD00EF7AE2 /* SuperHeroesTests */,
+				D0E7C72E208653DB00EF7AE2 /* Products */,
+				E92BE5ECA31A80FC404D26DE /* Pods */,
+				8D22F02B080530DF29BCE491 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E7C72E208653DB00EF7AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7C72D208653DB00EF7AE2 /* SuperHeroes.app */,
+				D0E7C741208653DD00EF7AE2 /* SuperHeroesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E7C72F208653DB00EF7AE2 /* SuperHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7C7522086568F00EF7AE2 /* Podfile */,
+				D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */,
+				D0E7C737208653DD00EF7AE2 /* Assets.xcassets */,
+				D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */,
+				D0E7C73C208653DD00EF7AE2 /* Info.plist */,
+				D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */,
+			);
+			path = SuperHeroes;
+			sourceTree = "<group>";
+		};
+		D0E7C744208653DD00EF7AE2 /* SuperHeroesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7C745208653DD00EF7AE2 /* SuperHeroesTests.swift */,
+				D0E7C747208653DD00EF7AE2 /* Info.plist */,
+			);
+			path = SuperHeroesTests;
+			sourceTree = "<group>";
+		};
+		E92BE5ECA31A80FC404D26DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F378256DD614823E6D5EEFF9 /* Pods-SuperHeroes.debug.xcconfig */,
+				734472E6617E9D352C59B1A0 /* Pods-SuperHeroes.release.xcconfig */,
+				32141F42A3CE9B434055FDD8 /* Pods-SuperHeroesTests.debug.xcconfig */,
+				6DF6EF464E7BC47A6F28C1D1 /* Pods-SuperHeroesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E7C72C208653DB00EF7AE2 /* SuperHeroes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E7C74A208653DD00EF7AE2 /* Build configuration list for PBXNativeTarget "SuperHeroes" */;
+			buildPhases = (
+				35793D61B90AC2D88C5A729D /* [CP] Check Pods Manifest.lock */,
+				D0E7C729208653DB00EF7AE2 /* Sources */,
+				D0E7C72A208653DB00EF7AE2 /* Frameworks */,
+				D0E7C72B208653DB00EF7AE2 /* Resources */,
+				A1BF0BFB4028B97B2A622B3C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperHeroes;
+			productName = SuperHeroes;
+			productReference = D0E7C72D208653DB00EF7AE2 /* SuperHeroes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E7C740208653DD00EF7AE2 /* SuperHeroesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E7C74D208653DD00EF7AE2 /* Build configuration list for PBXNativeTarget "SuperHeroesTests" */;
+			buildPhases = (
+				0694E0114E6722E62FEBC8DD /* [CP] Check Pods Manifest.lock */,
+				D0E7C73D208653DD00EF7AE2 /* Sources */,
+				D0E7C73E208653DD00EF7AE2 /* Frameworks */,
+				D0E7C73F208653DD00EF7AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E7C743208653DD00EF7AE2 /* PBXTargetDependency */,
+			);
+			name = SuperHeroesTests;
+			productName = SuperHeroesTests;
+			productReference = D0E7C741208653DD00EF7AE2 /* SuperHeroesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E7C725208653DB00EF7AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mibarbou;
+				TargetAttributes = {
+					D0E7C72C208653DB00EF7AE2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D0E7C740208653DD00EF7AE2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D0E7C72C208653DB00EF7AE2;
+					};
+				};
+			};
+			buildConfigurationList = D0E7C728208653DB00EF7AE2 /* Build configuration list for PBXProject "SuperHeroes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E7C724208653DB00EF7AE2;
+			productRefGroup = D0E7C72E208653DB00EF7AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E7C72C208653DB00EF7AE2 /* SuperHeroes */,
+				D0E7C740208653DD00EF7AE2 /* SuperHeroesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E7C72B208653DB00EF7AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E7C7532086568F00EF7AE2 /* Podfile in Resources */,
+				D0E7C73B208653DD00EF7AE2 /* LaunchScreen.storyboard in Resources */,
+				D0E7C738208653DD00EF7AE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E7C73F208653DD00EF7AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0694E0114E6722E62FEBC8DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperHeroesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35793D61B90AC2D88C5A729D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperHeroes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1BF0BFB4028B97B2A622B3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E7C729208653DB00EF7AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E7C7512086544D00EF7AE2 /* HeroesListViewController.swift in Sources */,
+				D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E7C73D208653DD00EF7AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E7C746208653DD00EF7AE2 /* SuperHeroesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E7C743208653DD00EF7AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E7C72C208653DB00EF7AE2 /* SuperHeroes */;
+			targetProxy = D0E7C742208653DD00EF7AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E7C73A208653DD00EF7AE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E7C748208653DD00EF7AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E7C749208653DD00EF7AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E7C74B208653DD00EF7AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F378256DD614823E6D5EEFF9 /* Pods-SuperHeroes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3XJQ6RL5C;
+				INFOPLIST_FILE = SuperHeroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E7C74C208653DD00EF7AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734472E6617E9D352C59B1A0 /* Pods-SuperHeroes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3XJQ6RL5C;
+				INFOPLIST_FILE = SuperHeroes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0E7C74E208653DD00EF7AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32141F42A3CE9B434055FDD8 /* Pods-SuperHeroesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3XJQ6RL5C;
+				INFOPLIST_FILE = SuperHeroesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperHeroes.app/SuperHeroes";
+			};
+			name = Debug;
+		};
+		D0E7C74F208653DD00EF7AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF6EF464E7BC47A6F28C1D1 /* Pods-SuperHeroesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3XJQ6RL5C;
+				INFOPLIST_FILE = SuperHeroesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperHeroes.app/SuperHeroes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E7C728208653DB00EF7AE2 /* Build configuration list for PBXProject "SuperHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E7C748208653DD00EF7AE2 /* Debug */,
+				D0E7C749208653DD00EF7AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E7C74A208653DD00EF7AE2 /* Build configuration list for PBXNativeTarget "SuperHeroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E7C74B208653DD00EF7AE2 /* Debug */,
+				D0E7C74C208653DD00EF7AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E7C74D208653DD00EF7AE2 /* Build configuration list for PBXNativeTarget "SuperHeroesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E7C74E208653DD00EF7AE2 /* Debug */,
+				D0E7C74F208653DD00EF7AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E7C725208653DB00EF7AE2 /* Project object */;
+}
