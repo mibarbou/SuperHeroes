@@ -18,6 +18,12 @@ class HeroesListViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        APIClient.superHeroes(success: { (response) in
+            print(response)
+        }) { (error) in
+            print(error)
+        }
     }
 
     override func didReceiveMemoryWarning() {

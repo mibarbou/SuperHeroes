@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		17E8F4C1C48B601E46838B32 /* Pods_SuperHeroes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F5B3855B87414E61AF8516 /* Pods_SuperHeroes.framework */; };
 		946FE3EF7A998E1679B1BDE7 /* Pods_SuperHeroesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19AD9BB343687D106F10114 /* Pods_SuperHeroesTests.framework */; };
+		D07D52AC2087B9A400B332AE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52AB2087B9A400B332AE /* APIClient.swift */; };
+		D07D52AF2087BA3C00B332AE /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52AE2087BA3C00B332AE /* Endpoint.swift */; };
+		D07D52B12087BA9800B332AE /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B02087BA9800B332AE /* APISettings.swift */; };
+		D07D52B32087BBD100B332AE /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B22087BBD100B332AE /* APIError.swift */; };
 		D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */; };
 		D0E7C738208653DD00EF7AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C737208653DD00EF7AE2 /* Assets.xcassets */; };
 		D0E7C73B208653DD00EF7AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */; };
@@ -32,6 +36,10 @@
 		33F5B3855B87414E61AF8516 /* Pods_SuperHeroes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeroes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF6EF464E7BC47A6F28C1D1 /* Pods-SuperHeroesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroesTests/Pods-SuperHeroesTests.release.xcconfig"; sourceTree = "<group>"; };
 		734472E6617E9D352C59B1A0 /* Pods-SuperHeroes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroes.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes.release.xcconfig"; sourceTree = "<group>"; };
+		D07D52AB2087B9A400B332AE /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D07D52AE2087BA3C00B332AE /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D07D52B02087BA9800B332AE /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
+		D07D52B22087BBD100B332AE /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		D0E7C72D208653DB00EF7AE2 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E7C737208653DD00EF7AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +83,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D07D52A92087B95100B332AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D07D52AA2087B95E00B332AE /* API */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D07D52AA2087B95E00B332AE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D07D52B02087BA9800B332AE /* APISettings.swift */,
+				D07D52AB2087B9A400B332AE /* APIClient.swift */,
+				D07D52AE2087BA3C00B332AE /* Endpoint.swift */,
+				D07D52B22087BBD100B332AE /* APIError.swift */,
+				D07D52AD2087BA1F00B332AE /* Responses */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D07D52AD2087BA1F00B332AE /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		D0E7C724208653DB00EF7AE2 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +133,7 @@
 		D0E7C72F208653DB00EF7AE2 /* SuperHeroes */ = {
 			isa = PBXGroup;
 			children = (
+				D07D52A92087B95100B332AE /* Models */,
 				D0E7C7522086568F00EF7AE2 /* Podfile */,
 				D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */,
 				D0E7C737208653DD00EF7AE2 /* Assets.xcassets */,
@@ -292,7 +328,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E7C7512086544D00EF7AE2 /* HeroesListViewController.swift in Sources */,
+				D07D52B12087BA9800B332AE /* APISettings.swift in Sources */,
 				D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */,
+				D07D52AF2087BA3C00B332AE /* Endpoint.swift in Sources */,
+				D07D52AC2087B9A400B332AE /* APIClient.swift in Sources */,
+				D07D52B32087BBD100B332AE /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +488,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3XJQ6RL5C;
 				INFOPLIST_FILE = SuperHeroes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,7 +507,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3XJQ6RL5C;
 				INFOPLIST_FILE = SuperHeroes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -481,7 +527,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3XJQ6RL5C;
 				INFOPLIST_FILE = SuperHeroesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -499,7 +549,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C3XJQ6RL5C;
 				INFOPLIST_FILE = SuperHeroesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mibarbou.SuperHeroesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
