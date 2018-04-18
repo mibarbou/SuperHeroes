@@ -50,11 +50,15 @@ class APIClient {
 
 //MARK: - Public
 extension APIClient {
-    public static func superHeroes(success: @escaping ([String : Any])->(),
+    public static func superHeroes(success: @escaping ([SuperHeroResponse])->(),
                      fail: @escaping (ApiError)->()) {
         self.request(endpoint: .superHeroes(),
                      success: { response in
-            success(response)
+                        guard let superHeroesResponse = SuperHeroesResponse(json: response) else {
+                            fail(.parser)
+                            return
+                        }
+            success(superHeroesResponse.list!)
         }) { error in
             fail(error)
         }

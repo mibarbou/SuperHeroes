@@ -13,6 +13,10 @@
 		D07D52AF2087BA3C00B332AE /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52AE2087BA3C00B332AE /* Endpoint.swift */; };
 		D07D52B12087BA9800B332AE /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B02087BA9800B332AE /* APISettings.swift */; };
 		D07D52B32087BBD100B332AE /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B22087BBD100B332AE /* APIError.swift */; };
+		D07D52B52087C7B200B332AE /* SuperHeroesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B42087C7B200B332AE /* SuperHeroesResponse.swift */; };
+		D07D52B72087C81600B332AE /* SuperHeroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B62087C81600B332AE /* SuperHeroResponse.swift */; };
+		D07D52BA2087CABF00B332AE /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B92087CABF00B332AE /* SuperHero.swift */; };
+		D07D52BD2087CBD500B332AE /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52BC2087CBD500B332AE /* Mapper.swift */; };
 		D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */; };
 		D0E7C738208653DD00EF7AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C737208653DD00EF7AE2 /* Assets.xcassets */; };
 		D0E7C73B208653DD00EF7AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */; };
@@ -40,6 +44,10 @@
 		D07D52AE2087BA3C00B332AE /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		D07D52B02087BA9800B332AE /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
 		D07D52B22087BBD100B332AE /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D07D52B42087C7B200B332AE /* SuperHeroesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesResponse.swift; sourceTree = "<group>"; };
+		D07D52B62087C81600B332AE /* SuperHeroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroResponse.swift; sourceTree = "<group>"; };
+		D07D52B92087CABF00B332AE /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		D07D52BC2087CBD500B332AE /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		D0E7C72D208653DB00EF7AE2 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E7C737208653DD00EF7AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,7 +57,7 @@
 		D0E7C745208653DD00EF7AE2 /* SuperHeroesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesTests.swift; sourceTree = "<group>"; };
 		D0E7C747208653DD00EF7AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListViewController.swift; sourceTree = "<group>"; };
-		D0E7C7522086568F00EF7AE2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D0E7C7522086568F00EF7AE2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F19AD9BB343687D106F10114 /* Pods_SuperHeroesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperHeroesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F378256DD614823E6D5EEFF9 /* Pods-SuperHeroes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperHeroes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +94,8 @@
 		D07D52A92087B95100B332AE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D07D52B82087CAA000B332AE /* DataModels */,
+				D07D52BB2087CBBD00B332AE /* Mappers */,
 				D07D52AA2087B95E00B332AE /* API */,
 			);
 			path = Models;
@@ -106,8 +116,57 @@
 		D07D52AD2087BA1F00B332AE /* Responses */ = {
 			isa = PBXGroup;
 			children = (
+				D07D52B42087C7B200B332AE /* SuperHeroesResponse.swift */,
+				D07D52B62087C81600B332AE /* SuperHeroResponse.swift */,
 			);
 			path = Responses;
+			sourceTree = "<group>";
+		};
+		D07D52B82087CAA000B332AE /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				D07D52B92087CABF00B332AE /* SuperHero.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		D07D52BB2087CBBD00B332AE /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				D07D52BC2087CBD500B332AE /* Mapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		D07D52BE2087D29700B332AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D07D52BF2087D2BE00B332AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D07D52C02087D32D00B332AE /* HeroesList */,
+				D07D52C12087D36900B332AE /* HeroDetail */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D07D52C02087D32D00B332AE /* HeroesList */ = {
+			isa = PBXGroup;
+			children = (
+				D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */,
+			);
+			path = HeroesList;
+			sourceTree = "<group>";
+		};
+		D07D52C12087D36900B332AE /* HeroDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HeroDetail;
 			sourceTree = "<group>";
 		};
 		D0E7C724208653DB00EF7AE2 = {
@@ -133,13 +192,14 @@
 		D0E7C72F208653DB00EF7AE2 /* SuperHeroes */ = {
 			isa = PBXGroup;
 			children = (
-				D07D52A92087B95100B332AE /* Models */,
 				D0E7C7522086568F00EF7AE2 /* Podfile */,
 				D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */,
+				D07D52A92087B95100B332AE /* Models */,
+				D07D52BE2087D29700B332AE /* Views */,
+				D07D52BF2087D2BE00B332AE /* Controllers */,
 				D0E7C737208653DD00EF7AE2 /* Assets.xcassets */,
 				D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */,
 				D0E7C73C208653DD00EF7AE2 /* Info.plist */,
-				D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */,
 			);
 			path = SuperHeroes;
 			sourceTree = "<group>";
@@ -330,8 +390,12 @@
 				D0E7C7512086544D00EF7AE2 /* HeroesListViewController.swift in Sources */,
 				D07D52B12087BA9800B332AE /* APISettings.swift in Sources */,
 				D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */,
+				D07D52B52087C7B200B332AE /* SuperHeroesResponse.swift in Sources */,
+				D07D52BD2087CBD500B332AE /* Mapper.swift in Sources */,
 				D07D52AF2087BA3C00B332AE /* Endpoint.swift in Sources */,
+				D07D52BA2087CABF00B332AE /* SuperHero.swift in Sources */,
 				D07D52AC2087B9A400B332AE /* APIClient.swift in Sources */,
+				D07D52B72087C81600B332AE /* SuperHeroResponse.swift in Sources */,
 				D07D52B32087BBD100B332AE /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
