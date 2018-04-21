@@ -14,3 +14,26 @@ enum ApiError :Error {
     case parser
     case noConnection
 }
+
+//MARK: - title
+extension ApiError {
+    var title: String {
+        switch self {
+        case .server, .unknown, .parser, .noConnection:
+            return "Oops"
+        }
+    }
+}
+
+//MARK: - description
+extension ApiError {
+    var description: String {
+        switch self {
+        case .server, .unknown, .parser:
+            return "Something went wrong"
+        case .noConnection:
+            return "Check your connection settings and try again"
+        }
+    }
+}
+

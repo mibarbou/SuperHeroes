@@ -4,8 +4,10 @@ platform :ios, '9.0'
 target 'SuperHeroes' do
   use_frameworks!
 
-pod 'Alamofire'
-pod 'Gloss'
+    pod 'Alamofire'
+    pod 'Gloss'
+    pod 'Kingfisher'
+    pod 'PKHUD', '~> 5.0'
 
   target 'SuperHeroesTests' do
     inherit! :search_paths

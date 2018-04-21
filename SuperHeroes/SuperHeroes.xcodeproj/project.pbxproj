@@ -17,6 +17,18 @@
 		D07D52B72087C81600B332AE /* SuperHeroResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B62087C81600B332AE /* SuperHeroResponse.swift */; };
 		D07D52BA2087CABF00B332AE /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52B92087CABF00B332AE /* SuperHero.swift */; };
 		D07D52BD2087CBD500B332AE /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52BC2087CBD500B332AE /* Mapper.swift */; };
+		D07D52C3208A433D00B332AE /* SuperHeroMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52C2208A433D00B332AE /* SuperHeroMapper.swift */; };
+		D07D52C6208A473D00B332AE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52C5208A473D00B332AE /* Coordinator.swift */; };
+		D07D52C8208A47E300B332AE /* HeroesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52C7208A47E300B332AE /* HeroesListPresenter.swift */; };
+		D07D52CA208A480000B332AE /* HeroesListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52C9208A480000B332AE /* HeroesListCoordinator.swift */; };
+		D07D52CC208A4A2700B332AE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52CB208A4A2700B332AE /* AppCoordinator.swift */; };
+		D07D52CE208A4BE600B332AE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52CD208A4BE600B332AE /* Color.swift */; };
+		D07D52D1208A4FA400B332AE /* SuperHeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52CF208A4FA400B332AE /* SuperHeroCell.swift */; };
+		D07D52D2208A4FA400B332AE /* SuperHeroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07D52D0208A4FA400B332AE /* SuperHeroCell.xib */; };
+		D07D52D5208A4FCD00B332AE /* SuperHeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52D3208A4FCD00B332AE /* SuperHeroDetailViewController.swift */; };
+		D07D52D6208A4FCD00B332AE /* SuperHeroDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07D52D4208A4FCD00B332AE /* SuperHeroDetailViewController.xib */; };
+		D07D52DA208A502700B332AE /* SuperHeroDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52D9208A502700B332AE /* SuperHeroDetailCoordinator.swift */; };
+		D07D52DC208B373900B332AE /* HeroesOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D52DB208B373900B332AE /* HeroesOrderType.swift */; };
 		D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */; };
 		D0E7C738208653DD00EF7AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C737208653DD00EF7AE2 /* Assets.xcassets */; };
 		D0E7C73B208653DD00EF7AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */; };
@@ -48,6 +60,18 @@
 		D07D52B62087C81600B332AE /* SuperHeroResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroResponse.swift; sourceTree = "<group>"; };
 		D07D52B92087CABF00B332AE /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 		D07D52BC2087CBD500B332AE /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		D07D52C2208A433D00B332AE /* SuperHeroMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroMapper.swift; sourceTree = "<group>"; };
+		D07D52C5208A473D00B332AE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D07D52C7208A47E300B332AE /* HeroesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListPresenter.swift; sourceTree = "<group>"; };
+		D07D52C9208A480000B332AE /* HeroesListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListCoordinator.swift; sourceTree = "<group>"; };
+		D07D52CB208A4A2700B332AE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D07D52CD208A4BE600B332AE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D07D52CF208A4FA400B332AE /* SuperHeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCell.swift; sourceTree = "<group>"; };
+		D07D52D0208A4FA400B332AE /* SuperHeroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperHeroCell.xib; sourceTree = "<group>"; };
+		D07D52D3208A4FCD00B332AE /* SuperHeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailViewController.swift; sourceTree = "<group>"; };
+		D07D52D4208A4FCD00B332AE /* SuperHeroDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperHeroDetailViewController.xib; sourceTree = "<group>"; };
+		D07D52D9208A502700B332AE /* SuperHeroDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailCoordinator.swift; sourceTree = "<group>"; };
+		D07D52DB208B373900B332AE /* HeroesOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesOrderType.swift; sourceTree = "<group>"; };
 		D0E7C72D208653DB00EF7AE2 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E7C737208653DD00EF7AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D07D52B92087CABF00B332AE /* SuperHero.swift */,
+				D07D52DB208B373900B332AE /* HeroesOrderType.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -134,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				D07D52BC2087CBD500B332AE /* Mapper.swift */,
+				D07D52C2208A433D00B332AE /* SuperHeroMapper.swift */,
 			);
 			path = Mappers;
 			sourceTree = "<group>";
@@ -141,6 +167,8 @@
 		D07D52BE2087D29700B332AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D07D52CF208A4FA400B332AE /* SuperHeroCell.swift */,
+				D07D52D0208A4FA400B332AE /* SuperHeroCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +185,8 @@
 		D07D52C02087D32D00B332AE /* HeroesList */ = {
 			isa = PBXGroup;
 			children = (
+				D07D52C9208A480000B332AE /* HeroesListCoordinator.swift */,
+				D07D52C7208A47E300B332AE /* HeroesListPresenter.swift */,
 				D0E7C7502086544D00EF7AE2 /* HeroesListViewController.swift */,
 			);
 			path = HeroesList;
@@ -165,8 +195,20 @@
 		D07D52C12087D36900B332AE /* HeroDetail */ = {
 			isa = PBXGroup;
 			children = (
+				D07D52D9208A502700B332AE /* SuperHeroDetailCoordinator.swift */,
+				D07D52D3208A4FCD00B332AE /* SuperHeroDetailViewController.swift */,
+				D07D52D4208A4FCD00B332AE /* SuperHeroDetailViewController.xib */,
 			);
 			path = HeroDetail;
+			sourceTree = "<group>";
+		};
+		D07D52C4208A471E00B332AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D07D52C5208A473D00B332AE /* Coordinator.swift */,
+				D07D52CD208A4BE600B332AE /* Color.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D0E7C724208653DB00EF7AE2 = {
@@ -194,9 +236,11 @@
 			children = (
 				D0E7C7522086568F00EF7AE2 /* Podfile */,
 				D0E7C730208653DB00EF7AE2 /* AppDelegate.swift */,
+				D07D52CB208A4A2700B332AE /* AppCoordinator.swift */,
 				D07D52A92087B95100B332AE /* Models */,
 				D07D52BE2087D29700B332AE /* Views */,
 				D07D52BF2087D2BE00B332AE /* Controllers */,
+				D07D52C4208A471E00B332AE /* Utils */,
 				D0E7C737208653DD00EF7AE2 /* Assets.xcassets */,
 				D0E7C739208653DD00EF7AE2 /* LaunchScreen.storyboard */,
 				D0E7C73C208653DD00EF7AE2 /* Info.plist */,
@@ -308,9 +352,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07D52D6208A4FCD00B332AE /* SuperHeroDetailViewController.xib in Resources */,
 				D0E7C7532086568F00EF7AE2 /* Podfile in Resources */,
 				D0E7C73B208653DD00EF7AE2 /* LaunchScreen.storyboard in Resources */,
 				D0E7C738208653DD00EF7AE2 /* Assets.xcassets in Resources */,
+				D07D52D2208A4FA400B332AE /* SuperHeroCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,11 +415,15 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SuperHeroes/Pods-SuperHeroes-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -389,12 +439,22 @@
 			files = (
 				D0E7C7512086544D00EF7AE2 /* HeroesListViewController.swift in Sources */,
 				D07D52B12087BA9800B332AE /* APISettings.swift in Sources */,
+				D07D52DA208A502700B332AE /* SuperHeroDetailCoordinator.swift in Sources */,
+				D07D52DC208B373900B332AE /* HeroesOrderType.swift in Sources */,
+				D07D52D1208A4FA400B332AE /* SuperHeroCell.swift in Sources */,
+				D07D52C3208A433D00B332AE /* SuperHeroMapper.swift in Sources */,
 				D0E7C731208653DB00EF7AE2 /* AppDelegate.swift in Sources */,
 				D07D52B52087C7B200B332AE /* SuperHeroesResponse.swift in Sources */,
+				D07D52CE208A4BE600B332AE /* Color.swift in Sources */,
 				D07D52BD2087CBD500B332AE /* Mapper.swift in Sources */,
 				D07D52AF2087BA3C00B332AE /* Endpoint.swift in Sources */,
+				D07D52C8208A47E300B332AE /* HeroesListPresenter.swift in Sources */,
 				D07D52BA2087CABF00B332AE /* SuperHero.swift in Sources */,
+				D07D52C6208A473D00B332AE /* Coordinator.swift in Sources */,
+				D07D52CA208A480000B332AE /* HeroesListCoordinator.swift in Sources */,
+				D07D52D5208A4FCD00B332AE /* SuperHeroDetailViewController.swift in Sources */,
 				D07D52AC2087B9A400B332AE /* APIClient.swift in Sources */,
+				D07D52CC208A4A2700B332AE /* AppCoordinator.swift in Sources */,
 				D07D52B72087C81600B332AE /* SuperHeroResponse.swift in Sources */,
 				D07D52B32087BBD100B332AE /* APIError.swift in Sources */,
 			);

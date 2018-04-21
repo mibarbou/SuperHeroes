@@ -58,7 +58,7 @@ extension APIClient {
                             fail(.parser)
                             return
                         }
-            success(superHeroesResponse.list!)
+            success(superHeroesResponse.list ?? [])
         }) { error in
             fail(error)
         }
